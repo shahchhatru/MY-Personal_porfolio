@@ -1,3 +1,4 @@
+
 import React from 'react'
 import {motion} from "framer-motion"
 
@@ -29,7 +30,7 @@ const singleWord={
         }
     }
 }
-const AnimatedText = ({text,className=""}) => {
+const AnimatedText = ({text="",className=""}) => {
   return (
     <div 
     className="w-full mx-auto py-2 flex items-center justify-center text-center overflow-hidden"
@@ -55,4 +56,4 @@ const AnimatedText = ({text,className=""}) => {
   )
 }
 
-export default AnimatedText
+export default AnimatedText;

@@ -53,19 +53,19 @@ const about = () => {
             <div className="col-span-3 flex flex-col items-start justify-start">
                 <h2 className="mb-4 text-lg font-bold uppercase text-dark/75">Biography</h2>
                 <p className="font-medium">
-                Welcome to the world of AI and Fullstack Freelancing, where innovation meets creativity! I'm the dynamic freelancer you've been searching for, armed with the power of AI and the skills of a fullstack developer. Let's take your projects to new heights!
+                Welcome to the world of AI and Fullstack Freelancing, where innovation meets creativity! I &apos;m the dynamic freelancer you &apos; ve been searching for, armed with the power of AI and the skills of a fullstack developer. Let &apos; s take your projects to new heights!
 
                 </p>
                 <p className="my-4 font-medium">
-                Ready to unleash the potential of AI? I'm your go-to expert for mind-blowing content creation and cutting-edge applications. Whether you're dreaming of intelligent chatbots, futuristic virtual assistants, or data-driven insights that drive success, I've got the AI magic to make it happen.
+                Ready to unleash the potential of AI? I &apos; m your go-to expert for mind-blowing content creation and cutting-edge applications. Whether you&apos;re dreaming of intelligent chatbots, futuristic virtual assistants, or data-driven insights that drive success, I &apos; ve got the AI magic to make it happen.
                 </p>
                 <p className="my-4 font-medium">
-                But wait, there's more! As a fullstack virtuoso, I'll transform your ideas into pixel-perfect reality. From eye-catching websites that captivate your audience to sleek web applications that streamline your business, I've got the coding prowess to create stunning digital experiences.
+                But wait, there &apos; s more! As a fullstack virtuoso, I &apos; ll transform your ideas into pixel-perfect reality. From eye-catching websites that captivate your audience to sleek web applications that streamline your business, I &apos; ve got the coding prowess to create stunning digital experiences.
 
 
                 </p>
                 <p className="font-medium">
-                So, if you're a visionary startup hungry for AI-powered revolution or a business seeking a rockstar freelancer to amplify your online presence, look no further. Let's team up and embark on an exhilarating journey of innovation and success. Get ready to be amazed—reach out to me today and let's make waves together!
+                So, if you &apos; re a visionary startup hungry for AI-powered revolution or a business seeking a rockstar freelancer to amplify your online presence, look no further. Let &apos; s team up and embark on an exhilarating journey of innovation and success. Get ready to be amazed—reach out to me today and let &apos; s make waves together!
                 </p>
             </div>
             <div className="col-span-3 relative h-max rounded-2xl border-2 border-solid border-dark 
