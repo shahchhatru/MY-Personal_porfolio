@@ -58,7 +58,7 @@ const Experience = () => {
 
                    />
 
-<Details 
+{/* <Details 
                    position="Software Engineer" company="Google"
                    companyLink="www.google.com"
                    time="2022-Present" address="Mountain View, CA"
@@ -78,7 +78,7 @@ const Experience = () => {
                    developing new tools for data analysis and visualization.
                    "
 
-                   />
+                   /> */}
 
                 </ul>
                 
