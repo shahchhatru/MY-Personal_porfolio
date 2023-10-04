@@ -6,6 +6,7 @@ import Layout from "./components/Layout";
 import AnimatedText from "./components/AnimatedText";
 import { GithubIcon } from "./components/Icons";
 import project_mis from "../../public/images/projects/MIS.jpg";
+import project_vcg from '../../public/images/projects/VideoCaptionining.jpg'
 const FeaturedProject = ({ type, title, summary, img, link, github }) => {
   return (
     <article className="w-full h-fit flex items-center justify-between rounded-3xl border border-solid border-dark  bg-light shadow-2xl p-12">
@@ -64,11 +65,23 @@ export default function projects() {
                 img={project_mis}
               />
             </div>
-            <div className="col-span-6">Project-1</div>
-            <div className="col-span-6">Project-2</div>
-            <div className="col-span-12">Featured Projects</div>
-            <div className="col-span-6">Project-1</div>
-            <div className="col-span-6">Project-2</div>
+            {/* <div className="col-span-6">Project-1</div>
+            <div className="col-span-6">Project-2</div> */}
+            <div className="col-span-12">
+            <FeaturedProject
+                title="Video Event Describer"
+                summary={
+                  "A powerful AI model which synthesizes Video frame by frame and generate description of what is happening in video. It was built without using any pretrained model from scratch. It was coded in pytorch" }
+                link={"https://management-information-system-mis.vercel.app/"}
+                type="Video Caption Generator"
+                github={
+                  "https://github.com/shahchhatru/Management_Information_System_MIS"
+                }
+                img={project_vcg}
+              />
+            </div>
+            <div className="col-span-6"></div>
+            <div className="col-span-6"></div>
           </div>
         </Layout>
       </main>
