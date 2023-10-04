@@ -75,7 +75,7 @@ export default function projects() {
                 title="Video Event Describer"
                 summary={
                   "A powerful AI model which synthesizes Video frame by frame and generate description of what is happening in video. It was built without using any pretrained model from scratch. It was coded in pytorch" }
-                link={"https://management-information-system-mis.vercel.app/"}
+                link={"https://github.com/shahchhatru/Video-Caption-Generator"}
                 type="AI | Image Processing , Deep Learning"
                 github={
                   "https://github.com/shahchhatru/Video-Caption-Generator"
@@ -90,7 +90,7 @@ export default function projects() {
                 title="Plant Nursery Website"
                 summary={
                   "A full stack website build using django which serves as a ecommerce platform for people and nurseries to buy plants,sell seeds and fertilizers" }
-                link={"/"}
+                link={"https://github.com/shahchhatru/django-nursery-ecommerece2.0"}
                 type="Django Full Stack"
                 github={
                   "https://github.com/shahchhatru/django-nursery-ecommerece2.0"
