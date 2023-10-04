@@ -35,7 +35,7 @@ const Navbar = () => {
 
        
         <nav className="flex items-center justify-center flex-wrap">
-            <motion.a href="https:twitter.com" target={"_blank"}
+            <motion.a href="/" target={"_blank"}
             whileHover={{
             y:-2,
             }}
@@ -68,7 +68,7 @@ const Navbar = () => {
             >
                 <LinkedInIcon/>
             </motion.a>
-            <motion.a href="https:dribbble.com" target={"_blank"}
+            <motion.a href="/" target={"_blank"}
             className="w-6 mx-3"
             whileHover={{
                 y:-2,
@@ -79,7 +79,7 @@ const Navbar = () => {
             >
                 <DribbbleIcon/>
             </motion.a>
-            <motion.a href="https:dribbble.com" target={"_blank"} 
+            <motion.a href="/" target={"_blank"} 
             className="w-6 mx-3"
             whileHover={{
                 y:-2,
