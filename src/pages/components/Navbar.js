@@ -46,7 +46,7 @@ const Navbar = () => {
             >
                 <TwitterIcon/>
             </motion.a>
-            <motion.a href="https:github.io" target={"_blank"}
+            <motion.a href="https://github.com/shahchhatru?tab=repositories" target={"_blank"}
             className="w-6 mx-3"
             whileHover={{
                 y:-2,
@@ -57,7 +57,7 @@ const Navbar = () => {
             >
                 <GithubIcon/>
                 </motion.a>
-            <motion.a href="https:linkedin.com" target={"_blank"}
+            <motion.a href="https://www.linkedin.com/in/chhatra-bikram-shah-5bb093279/" target={"_blank"}
             className="w-6 mx-3"
             whileHover={{
                 y:-2,

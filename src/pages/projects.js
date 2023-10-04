@@ -6,8 +6,10 @@ import Layout from "./components/Layout";
 import AnimatedText from "./components/AnimatedText";
 import { GithubIcon } from "./components/Icons";
 import project_mis from "../../public/images/projects/MIS.jpg";
-import project_vcg from '../../public/images/projects/VideoCaptionining.jpg'
-const FeaturedProject = ({ type, title, summary, img, link, github }) => {
+import project_vcg from '../../public/images/projects/VideoCaptionining.jpg';
+import project_ecommerce from '../../public/images/projects/ecommerce.jpg';
+
+const FeaturedProject = ({ type, title, summary, img, link="", github="" }) => {
   return (
     <article className="w-full h-fit flex items-center justify-between rounded-3xl border border-solid border-dark  bg-light shadow-2xl p-12">
       <Link href={link} target="_blank"
@@ -25,6 +27,7 @@ const FeaturedProject = ({ type, title, summary, img, link, github }) => {
           <Link href={github} target="_blank" className="w-12 m-2">
             <GithubIcon />
           </Link>
+         
           <Link href={link} target="_blank"
           className="ml-6 rounded-lg bg-dark text-light p-2 px-6 text-lg font-semibold"
           >
@@ -73,15 +76,28 @@ export default function projects() {
                 summary={
                   "A powerful AI model which synthesizes Video frame by frame and generate description of what is happening in video. It was built without using any pretrained model from scratch. It was coded in pytorch" }
                 link={"https://management-information-system-mis.vercel.app/"}
-                type="Video Caption Generator"
+                type="AI | Image Processing , Deep Learning"
                 github={
-                  "https://github.com/shahchhatru/Management_Information_System_MIS"
+                  "https://github.com/shahchhatru/Video-Caption-Generator"
                 }
                 img={project_vcg}
               />
             </div>
-            <div className="col-span-6"></div>
-            <div className="col-span-6"></div>
+            {/* <div className="col-span-6"></div>
+            <div className="col-span-6"></div> */}
+            <div className="col-span-12">
+            <FeaturedProject
+                title="Plant Nursery Website"
+                summary={
+                  "A full stack website build using django which serves as a ecommerce platform for people and nurseries to buy plants,sell seeds and fertilizers" }
+                link={"/"}
+                type="Django Full Stack"
+                github={
+                  "https://github.com/shahchhatru/django-nursery-ecommerece2.0"
+                }
+                img={project_ecommerce}
+              />
+            </div>
           </div>
         </Layout>
       </main>
